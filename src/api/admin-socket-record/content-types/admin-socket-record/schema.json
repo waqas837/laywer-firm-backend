@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admin_socket_records",
+  "info": {
+    "singularName": "admin-socket-record",
+    "pluralName": "admin-socket-records",
+    "displayName": "admin-socket-record"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "socketId": {
+      "type": "uid"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_supports",
+  "info": {
+    "singularName": "chat-support",
+    "pluralName": "chat-supports",
+    "displayName": "chat_support",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "text"
+    },
+    "userid": {
+      "type": "uid"
+    },
+    "socketId": {
+      "type": "uid"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "issue": {
+      "type": "text"
+    }
+  }
+}

@@ -15,9 +15,6 @@
     "userName": {
       "type": "text"
     },
-    "userid": {
-      "type": "uid"
-    },
     "socketId": {
       "type": "uid"
     },
@@ -32,6 +29,15 @@
     },
     "issue": {
       "type": "text"
+    },
+    "message": {
+      "type": "text"
+    },
+    "role": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "string"
     }
   }
 }

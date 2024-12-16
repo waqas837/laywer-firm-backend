@@ -16,6 +16,7 @@
     "better-sqlite3": "^7.4.6",
     "mysql": "^2.18.1",
     "node-nlp": "^4.27.0",
+    "openai": "^4.76.0",
     "socket.io": "^4.8.1",
     "uuid": "^11.0.3"
   },

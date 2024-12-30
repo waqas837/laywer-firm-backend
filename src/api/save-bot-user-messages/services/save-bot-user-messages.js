@@ -19,16 +19,7 @@ module.exports = ({ strapi }) => ({
       email,
       address,
     } = QuestionsAnswers;
-    console.log({
-      botQuestion,
-      userAnswer,
-      userid,
-      username,
-      socketid,
-      phone,
-      email,
-      address,
-    });
+
     try {
       await saveMessage(
         botQuestion,

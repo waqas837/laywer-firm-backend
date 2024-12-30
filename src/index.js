@@ -34,7 +34,6 @@ module.exports = {
         strapi.socket = socket;
         // Socket id handler
         socket.on("updateSocketId", async ({ userid }) => {
-          console.log("updateSocketId is called", userid, socket.id);
           // Add this temporary debug code at the start of your updateSocketId handler
           const existingRecord = await strapi.db
             .query("api::chat-support.chat-support")

@@ -1,0 +1,13 @@
+diff --git a/node_modules/@strapi/database/lib/dialects/index.js b/node_modules/@strapi/database/lib/dialects/index.js
+index a0b44e7..15b3148 100644
+--- a/node_modules/@strapi/database/lib/dialects/index.js
++++ b/node_modules/@strapi/database/lib/dialects/index.js
+@@ -4,7 +4,7 @@ const getDialectClass = (client) => {
+   switch (client) {
+     case 'postgres':
+       return require('./postgresql');
+-    case 'mysql':
++    case 'mysql2':
+       return require('./mysql');
+     case 'sqlite':
+       return require('./sqlite');

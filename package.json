@@ -20,6 +20,7 @@
     "openai": "^4.76.0",
     "patch-package": "^8.0.0",
     "socket.io": "^4.8.1",
+    "strapi-plugin-vercel-deploy": "^1.4.0",
     "uuid": "^11.0.3"
   },
   "author": {

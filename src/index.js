@@ -22,7 +22,7 @@ module.exports = {
     //strapi.server.httpServer is the new update for Strapi V4
     const io = require("socket.io")(strapi.server.httpServer, {
       cors: {
-        origin: "http://localhost:3000", // Allow frontend from localhost:3000
+        origin: "*", // Allow frontend from localhost:3000
         methods: ["GET", "POST"],
         credentials: true,
       },
